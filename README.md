@@ -14,6 +14,6 @@ git clone https://github.com/moslog/logic-lomba-template-notebook.git
 cd logic-lomba-template-notebook
 jupyter notebook template.ipynb
 ```
-[Terminal](terminal.png)
+![Terminal](terminal.png)
 
-[Notebook](jupyter-notebook.png)
+![Notebook](jupyter-notebook.png)
