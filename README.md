@@ -40,3 +40,7 @@ _Python_
    """
    print(soal1)
    ```
+   
+   **Notebook**
+    
+![Notebook](soal1logic1.png)
