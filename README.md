@@ -9,11 +9,19 @@ Masuk folder `logic-lomba-tempat-notebook` dan buka file notebook dengan perinta
 
 Atau salin dan tempel perintah ini ke terminal:
 
+**Git Clone**
 ```
 git clone https://github.com/moslog/logic-lomba-template-notebook.git
 cd logic-lomba-template-notebook
 jupyter notebook template.ipynb
 ```
+
+**cURL**
+```curl
+cURL -O https://raw.githubusercontent.com/moslog/logic-lomba-template-notebook/master/template.ipynb
+jupyter notebook template.ipynb
+```
+
 
 **Screenshoot**
 
