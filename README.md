@@ -25,29 +25,18 @@ jupyter notebook template.ipynb
 
 **Logic 1 Soal 1**
 
-<pre>
-*
- *
-  *
+_Python_
+   ```python
+   soal1 = """
    *
     *
      *
       *
        *
         *
-</pre>
-
-```python
-soal1 = """
-*
- *
-  *
-   *
-    *
-     *
-      *
-       *
-        *
-"""
-  print(soal1)
-```
+         *
+          *
+           *
+   """
+   print(soal1)
+   ```
