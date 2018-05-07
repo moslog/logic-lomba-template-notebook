@@ -14,6 +14,40 @@ git clone https://github.com/moslog/logic-lomba-template-notebook.git
 cd logic-lomba-template-notebook
 jupyter notebook template.ipynb
 ```
+
+**Screenshoot**
+
 ![Terminal](terminal.png)
 
 ![Notebook](jupyter-notebook.png)
+
+### Contoh Pengerjaaan:
+
+**Logic 1 Soal 1**
+
+<pre>
+*
+ *
+  *
+   *
+    *
+     *
+      *
+       *
+        *
+</pre>
+
+```python
+soal1 = """
+*
+ *
+  *
+   *
+    *
+     *
+      *
+       *
+        *
+"""
+  print(soal1)
+```
