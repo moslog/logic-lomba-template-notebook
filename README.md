@@ -18,7 +18,7 @@ jupyter notebook template.ipynb
 
 **cURL**
 ```curl
-cURL -O https://raw.githubusercontent.com/moslog/logic-lomba-template-notebook/master/template.ipynb
+curl -O https://raw.githubusercontent.com/moslog/logic-lomba-template-notebook/master/template.ipynb
 jupyter notebook template.ipynb
 ```
 
