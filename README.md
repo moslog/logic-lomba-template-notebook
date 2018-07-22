@@ -9,6 +9,13 @@ Masuk folder `logic-lomba-tempat-notebook` dan buka file notebook dengan perinta
 
 Atau salin dan tempel perintah ini ke terminal:
 
+**Shortcut**
+```shell
+cd ~/Desktop
+curl -O https://github.com/moslog/logic-lomba-template-notebook/blob/master/lomba_setup.sh
+bash lomba_setup.sh
+```
+
 **Git Clone**
 ```
 git clone https://github.com/moslog/logic-lomba-template-notebook.git
