@@ -12,7 +12,7 @@ Atau salin dan tempel perintah ini ke terminal:
 **Shortcut**
 ```shell
 cd ~/Desktop
-curl -O https://github.com/moslog/logic-lomba-template-notebook/blob/master/lomba_setup.sh
+curl -O https://raw.githubusercontent.com/moslog/logic-lomba-template-notebook/master/lomba_setup.sh
 bash lomba_setup.sh
 ```
 
