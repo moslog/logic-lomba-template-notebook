@@ -17,14 +17,14 @@ bash lomba_setup.sh
 ```
 
 **Git Clone**
-```
+```shell
 git clone https://github.com/moslog/logic-lomba-template-notebook.git
 cd logic-lomba-template-notebook
 jupyter notebook template.ipynb
 ```
 
 **cURL**
-```curl
+```shell
 curl -O https://raw.githubusercontent.com/moslog/logic-lomba-template-notebook/master/template.ipynb
 jupyter notebook template.ipynb
 ```
