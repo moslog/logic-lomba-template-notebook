@@ -10,12 +10,28 @@ Masuk folder `logic-lomba-tempat-notebook` dan buka file notebook dengan perinta
 Atau salin dan tempel perintah ini ke terminal:
 
 **Shortcut**
+
+**Mac & Linux**
 ```shell
 cd ~/Desktop
-curl -O https://raw.githubusercontent.com/moslog/logic-lomba-template-notebook/master/lomba_setup.sh
-bash lomba_setup.sh
+dir_name=LogicLombaTemplate
+rm -rf $dir_name
+mkdir $dir_name
+cd $dir_name
+wget https://raw.githubusercontent.com/moslog/logic-lomba-template-notebook/master/template.ipynb
+jupyter notebook
 ```
 
+**Windows Powershell**
+```powershell
+cd ~\Desktop
+$dir_name = "LogicLombaTemplate"
+rm -rf $dir_name
+mkdir $dir_name
+cd $dir_name
+$url = "https://raw.githubusercontent.com/moslog/logic-lomba-template-notebook/master/template.ipynb"
+wget $url -Outfile template.ipynb
+```
 **Git Clone**
 ```shell
 git clone https://github.com/moslog/logic-lomba-template-notebook.git
